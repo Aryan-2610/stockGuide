@@ -1,0 +1,16 @@
+# Secrets: never commit real API keys
+.env
+
+# Per-query output folders (logs, JSON, reports)
+runs/
+
+# Python build/cache artifacts
+__pycache__/
+*.pyc
+
+# Local virtual environment
+.venv/
+
+# macOS / editor noise
+.DS_Store
+.vscode/

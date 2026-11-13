@@ -1,0 +1,9 @@
+# Pinned so every run (and every interviewer's machine) uses the same versions.
+# Phase 1
+yfinance==1.8.0        # Yahoo Finance search + price history (unofficial data source)
+pandas==3.1.1          # price tables, moving averages, returns
+numpy==2.4.6           # used by pandas
+python-dotenv==1.2.4   # load secrets from .env
+requests==2.34.2       # plain HTTP (news providers in Phase 2)
+pytest==9.2.0          # tests (Phase 3)
+# Phase 2 will add: google-genai, transformers, torch
